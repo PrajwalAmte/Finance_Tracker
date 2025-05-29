@@ -56,11 +56,11 @@ graph TB
     SS --> AM
     
     %% Styling
-    classDef frontend fill:#e1f5fe
-    classDef backend fill:#f3e5f5
-    classDef database fill:#e8f5e8
-    classDef scheduler fill:#fff3e0
-    classDef external fill:#fce4ec
+    classDef frontend fill:#e1f5fe,color:#000000
+    classDef backend fill:#f3e5f5,color:#000000
+    classDef database fill:#e8f5e8,color:#000000
+    classDef scheduler fill:#fff3e0,color:#000000
+    classDef external fill:#fce4ec,color:#000000
     
     class UI frontend
     class API,Services backend
